@@ -1,0 +1,8 @@
+@import "../abstracts/mixins";
+
+@include font-face("Angelica", "../fonts/Angelica/Angelica", 400);
+@include font-face("Georgia", "../fonts/Georgia/georgia", 400);
+@include font-face("BebasNeue", "../fonts/Bebas/BebasNeue-Regular", 400);
+
+
+// @include font-face("icomoon", "../fonts/icomoon/icomoon");

@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 16px;
+  font-family: $font-family;
+}
+body {
+  min-width: 320px;
+  background: #E5E5E5 url(../img/body/body-bg-3.jpg) top center/100% auto;
+}
+.container-fluid {
+  max-width: 1290px;
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+sup {
+  font-size: 12px;
+}
+select {
+  appearance:none;
+}
+input, select, textarea {
+  &:focus {
+    outline: none;
+  }
+  &:active {
+    outline: none;
+  }
+}
+a:hover {
+  text-decoration: none!important;
+}
+.d-none {
+  display: none;
+}
+.active {
+  display: block;
+}
+button:focus {
+  outline: none;
+}
+img {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
